@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <center>    
+        <div class="topnav">
+             <a class="active" href="#Home">Home</a>
+             <a href="#About">About</a>
+             <a href="#Work">Work</a>
+             <a href="#Resume">Resume</a>
+             <a href="#Contact">Contact</a>
+        </div>
+    </center>    
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=100051907303345" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://twitter.com/i/flow/login" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <h1>i am Mahdi boughaba</h1>
+            <p id="About">im Majdi, beginner Web developer<br>
+            with a short time experience in this field <br>
+            by studying at GomyCode Sousse
+            </p>
+        </div>
+        <div>
+            <h1 id="Work">My Work</h1>
+            <p>Well, this is my first project and im intending to work on my<br>
+            portfolio as my first project i hope you like it.
+            </p>
+        </div>
+        <div>
+            <h1 id="Resume">My Resume</h1>
+            <h3>Profile</h3>
+                <p>Hello, my name is Majdi, im 20 years old, Studying Web development<br>
+                at GomyCode, I just started this week, So im a beginner in this field<br>
+                but you can try and work with me there is nothing to lose. 
+            </p>
+            <h3>Employment History</h3>
+                 <p>As i told you before, im still studying right now, So you can try to work<br>
+                because that's might help me to gain some experience.</p>
+            <h3>Education History</h3>
+                <p>My education history the past couple of years:</p>
+            <ul>
+                <li>manhel high school: I studied economy and management for 4 years there.</li>
+                <li>GomyCode Souuse: Its my current studying location, im trying to become a full stack web developer.</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript.</li>
+                <li>Algorithms and its elements.</li>
+                <li>Linear Data Structure</li>
+                <li>WordPress</li>
+            </ul>
+            <h3>Certifications</h3>
+            <ul>
+                <li>Full-Stack Web Development with React Certification</li>
+                <li>Front End Web Development Certificate</li>
+                <li>Back End Web Development Certificate</li>
+            </ul>
+        </div>
+        <div id="Contact" class="cont-contactBtn">
+        <div class="cont-flip">
+        <div class="front">
+                <a href="#" class="btn btn-white flip">Send Message</a>
+        </div>
+        <div class="back">
+                <a href="#" class="flip close"></a>
+                <form class="contact-form" action="">
+                <input class="gutter" type="text" placeholder="Name"><br>
+                <input type="text" placeholder="Company"><br>
+                <input class="gutter" type="text" placeholder="Telephone"><br>
+                <input type="text" placeholder="Email"><br>
+                <textarea name="" id="" placeholder="Leave a message"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        </div>
+</body>
+</html>
